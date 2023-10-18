@@ -207,3 +207,47 @@ nav {
 #astronaut{
     filter: drop-shadow(0px 9px 20px rgba(0, 0, 0, 0.10)) drop-shadow(0px 36px 36px rgba(0, 0, 0, 0.09)) drop-shadow(0px 82px 49px rgba(0, 0, 0, 0.05)) drop-shadow(0px 145px 58px rgba(0, 0, 0, 0.01)) drop-shadow(0px 227px 64px rgba(0, 0, 0, 0.00));
 }
+
+.last-section{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+
+.collections{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#text-init{
+    margin: 0;
+    text-decoration: underline;
+    font-weight: 500;
+    color: black;
+    width: 30%;
+    font-size: 16px;
+}
+
+#img{
+    height: 45px;
+}
+
+#next-page{
+    width: 150px;
+    height: 60px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    padding: 2px 8px;
+    border-radius: 10px;
+}
+
+.last-part{
+    height: 45px;
+    scale: 1.2;
+}
