@@ -254,14 +254,15 @@ nav {
 
 @media (max-width: 768px) {
     nav {
-        padding-top: 1rem; /* Adjust padding for mobile */
+        padding-top: 1rem;
     }
 
-    /* Modify other styles for mobile here */
+
 }
 
-/* Media query for screens 768px or larger (typical desktop screens) */
+
 @media (min-width: 769px) {
     nav {
-        padding-top: 1.5rem; /* Adjust padding for desktop */
+        padding-top: 1.5rem;
     }
+}
