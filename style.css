@@ -1,0 +1,209 @@
+*{
+    margin: 0 20px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #F5F6F6;
+    font-family: "Poppins", system-ui;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1.5rem;
+}
+
+.navbarItems{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-items1{
+    color: #979797;
+    padding-left: 8px;
+}
+
+#more-btn{
+    font-weight: 700;
+    color: black;
+}
+
+.nav-items2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#mail{
+    margin-right: -10px;
+}
+
+.submit-btn{
+    width: 120px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 1.5px solid rgba(151, 151, 151, 0.80);
+    color: #F5F6F6;
+}
+
+#text-btn{
+    color: #979797;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 550;
+    line-height: normal;
+}
+
+.img{
+    width: 45px;
+    height: 45px;
+}
+
+
+
+
+.main--container {
+    display: flex;
+    margin-top: 70px;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading{
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.sub-text{
+    margin-top: 12px;
+    width: 450px;
+    margin-bottom: 18px;
+}
+
+#text-btnD{
+    font-size: 15px;
+    color: #979797;
+    text-align: center;
+}
+
+.search-bar{
+    margin-top: 7px;
+    padding: 5px 5px;
+    background: white;
+    border-radius: 6px;
+    width: 45%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.part1{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#search-btn-style{
+    background: transparent;
+    border: 2px solid #000;
+    color: #000;
+    height: 40px;
+    width: 100px;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 16px;
+    margin: 0;
+}
+
+#search-vectors{
+    font-size: 15px;
+    color: #979797;
+}
+
+.part2{
+    margin: 0;
+}
+
+.text-line{
+    margin-top: 20px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Part1{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+}
+
+#premium{
+    color: #FE6523;
+}
+
+#free{
+    color: #2678EE;
+}
+
+.cards{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.card{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    padding: 4px 4px;
+}
+
+.align{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.first-letter{
+    margin: 0;
+    font-size: 32px;
+}
+
+.text-des{
+    padding-top: 8px;
+    margin: 0;
+}
+
+.download{
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+#astronaut{
+    filter: drop-shadow(0px 9px 20px rgba(0, 0, 0, 0.10)) drop-shadow(0px 36px 36px rgba(0, 0, 0, 0.09)) drop-shadow(0px 82px 49px rgba(0, 0, 0, 0.05)) drop-shadow(0px 145px 58px rgba(0, 0, 0, 0.01)) drop-shadow(0px 227px 64px rgba(0, 0, 0, 0.00));
+}
